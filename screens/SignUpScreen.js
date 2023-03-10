@@ -104,7 +104,6 @@ export default class LogInScreen extends React.Component{
             value={this.state.password}
             secureTextEntry={true}
             underlineColorAndroid='transparent'
-            value={this.state.password}
             onChangeText={(password) => this.setState({password})}/>
         </View>
 
